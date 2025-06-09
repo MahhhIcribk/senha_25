@@ -3,20 +3,19 @@
 :root {
     --branco: white;
     --cor-de-fundo: #00162E;
-    --fundo-senha: #00244D;
-    --fundo-texto: #001E40;
-    --borda: #0075FF;
+    --fundo-senha: #2865a1;
+    --fundo-texto: #17385d;
+    --borda: #4cf8ff;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
 }
-
 * {
     font-weight: 400;
 }
 
 body {
     color: var(--branco);
-    background-color: var(--cor-de-fundo);
+    background:  linear-gradient( -0.2turn, #329789, #3793b9, #30618f);
     font-family: var(--roboto);
 }
 
@@ -119,7 +118,7 @@ label {
 }
 
 .barra {
-    background-color: var(--fundo-senha);
+    background-color: transparent;
     height: 30px;
     width: 100%;
 }
